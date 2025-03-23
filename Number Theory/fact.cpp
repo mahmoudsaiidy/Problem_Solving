@@ -9,7 +9,7 @@ int gcd(int a, int b) {
 }
 
 long long lcm(long long a, long long b) {
-    return (a * / gcd(a, b) * b);
+    return (a / gcd(a, b) * b);
 }
 
 long long mul(long long a, long long b, long long m){
